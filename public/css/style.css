@@ -60,7 +60,7 @@ a:hover {
 }
 
 .bottom-space {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .justify-content-center {
@@ -567,7 +567,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #services {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .services { 
