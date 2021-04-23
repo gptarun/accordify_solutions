@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -39,8 +40,8 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/cubeportfolio.min.css">
   <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
-
+  <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="16x16">
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146578233-1"></script>
   <script>
@@ -51,11 +52,9 @@
     gtag('config', 'UA-146578233-1');
   </script>
 
-</head>
-
 <body>
   <nav class="navbar navbar-expand-lg fixed-top activate-menu navbar-light bg-light">
-    <a class="navbar-brand" href="#">Accordify</a>
+    <a class="navbar-brand" href="#"><img src="img/logo-nobg.png" width="110" height="60"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -68,11 +67,17 @@
         <li>
           <a class="nav-link" href="#features">Features</a>
         </li>
-        <li>
-          <a class="nav-link" href="#services">Services</a>
+
+        <li class="dropdown">
+          <a class="nav-link" href="#services">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul class="dropdown-content">
+            <li><a href="#services" style="text-decoration: none;">ALL SERVICES</a></li>
+            <li><a href="http://hsolcare.tk/site/login" style="text-decoration: none;">HSOL CARE</a></li>
+            
+          </ul>
         </li>
         <li>
-          <a class="nav-link" href="#portfolio">Portfoilo</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a class="nav-link" href="#teams">Team</a>
@@ -93,7 +98,7 @@
     <div class="container showcase">
       <div class="full-width text-center showcase-caption mt-30">
         <h4>We Are</h4>
-        <h1>Accordify Solutions</h1>
+        <h1>Accordify Websol Private Limited</h1>
         <p>A pact of trust and concord.</p>
         <div class="showcase-button">
           <a href="#features" class="button-style showcase-btn">
@@ -442,7 +447,7 @@
               <div>
                 <h3>Shivam Singh Gour</h3>
                 <h5>Co-founder</h5>
-                <p>Business Development Director in Accordify Solutions.</p>
+                <p>Business Development (Director) in Accordify Solutions.</p>
                 <div class="icons">
                   <!-- <a href="https://www.facebook.com/himanshu.garg.3597" target="_blank"><i class="fa fa-facebook"
                       aria-hidden="true"></i></a> -->
@@ -636,7 +641,7 @@
             </div>
             <div class="col-sm-11 xs-margin-50px-bottom">
               <p class="text-small" style="padding-top: 16px;">
-                accordify.solutions@gmail.com
+                info@accordify.co.in
               </p>
             </div>
           </div>
@@ -701,12 +706,18 @@
           <a href="#0"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
 
-        <p>&copy; 2019 Accordify Solutions. All Rights Reserved.</p>
+        <p>&copy; 2019 Accordify Websol Pvt. Ltd. All Rights Reserved.</p>
+        <p>&copy; CIN- U72900MP2021PTC055347</p>
       </div>
     </div>
 
     <div class="curve curve-top curve-center"></div>
+
+    <div id="myButton"></div>
   </footer>
+
+  
+
   <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-database.js"></script>
@@ -725,5 +736,4 @@
   <script src="./js/script.js"></script>
   <script src="./js/mail.js"></script>
 </body>
-
 </html>
