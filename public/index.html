@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="css/cubeportfolio.min.css">
   <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="16x16">
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146578233-1"></script>
   <script>
@@ -53,6 +53,7 @@
   </script>
 
 <body>
+  <div id="myButton" class="whatsapp-wrapper"></div>
   <nav class="navbar navbar-expand-lg fixed-top activate-menu navbar-light bg-light">
     <a class="navbar-brand" href="#"><img src="img/logo-nobg.png" width="110" height="60"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -72,8 +73,9 @@
           <a class="nav-link">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
           <ul class="dropdown-content">
             <li><a href="#services" style="text-decoration: none;">ALL SERVICES</a></li>
-            <li><a href="http://hsolcare.tk/site/login" target= "_blank" style="text-decoration: none;">HSOL CARE</a></li>
-            
+            <li><a href="http://hsolcare.tk" target="_blank" style="text-decoration: none;">HSOL CARE</a>
+            </li>
+
           </ul>
         </li>
         <li>
@@ -712,11 +714,9 @@
     </div>
 
     <div class="curve curve-top curve-center"></div>
-
-    <div id="myButton"></div>
   </footer>
 
-  
+
 
   <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
@@ -735,5 +735,26 @@
   <script src="./js/grid3d.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/mail.js"></script>
+
+  <script type="text/javascript" src="./js/plugins/floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="./css/floating-wpp.min.css">
+
+  <script type="text/javascript">
+    $(function () {
+      $('#myButton').floatingWhatsApp({
+        phone: '+918989568005',
+        popupMessage: 'Hello, how can we help you?',
+        message: "Hello, I'd like to discuss about ",
+        showPopup: true,
+        showOnIE: false,
+        headerTitle: 'Welcome to our support!',
+        position: 'right',
+        headerColor: '#25d366',
+        backgroundColor: "#25d366",
+        buttonImage: '<img src="img/whatsapp/whatsapp.jpg" alt="PlagFree Whatsapp" />'
+      });
+    });
+  </script>
 </body>
+
 </html>

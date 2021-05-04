@@ -1,43 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
- Theme Name: Nextme
- Theme URI: http://
- Description: The Multi-Purpose Onepage Template
- Author: dethemes
- Author URI: http://themeforest.net/user/dejithemes
- Version: 1.0
-
- Main Color   : #1A237E , #2576FD
- main Font    : Poppins, Roboto
-
------------------------------------------------------------------------------------*/
-/* --------------------------------------------------------------------------------
-
- == Table Of Content
-
-	01 Basics
-	02 Buttons
-	03 Navbar
-	04 Card
-	05 Showcase
-	06 Features
-	07 Services
-	08 Portfolio
-	09 Team
-	10 Feedback
-	11 Blog
-	12 Contact
-  13 Footer
-  14 Loader
-
-
----------------------------------------------------------------- */
-
-
-/* ----------------------------------------------------------------
-     [ 01 Start Basics ]
------------------------------------------------------------------*/
-
 body{
   font-size:15px;
 }
@@ -1567,6 +1527,10 @@ footer p {
   right: 100%;
   width: 100%;
   height: 2px;
+}
+
+.whatsapp-wrapper {
+  z-index: 10000;
 }
 
 /* ----------------------------------------------------------------
